@@ -11,3 +11,7 @@ Las dificultades presentadas durante el desarrollo del proyecto:
 Este proyecto nos permitió enfrentamos principalmente a dificultades al trabajar con la generación de datos aleatorios y asegurarnos de que la información creada fuera coherente y útil. Fue necesario ajustar la lógica para que los valores generados fueran realistas, como en el caso de los precios de productos o las cantidades de ventas. 
 
 Por otro lado, la coordinación con el equipo de trabajo fue otro papel fundamental, ya que lograr organizar la diferentes ideas, horarios y opiniones es todo un reto debido a las diferencias en la manera de trabajar de cada miembro del grupo.
+
+Además de lo anterior, también fue valioso implementar mejoras en el manejo de errores dentro del proyecto, como el uso de System.err y printStackTrace() para facilitar la identificación de problemas durante la ejecución. 
+
+Se sugirió estructurar mejor las clases mediante entidades como Vendedor, Producto y Venta, lo que contribuyó a una mayor organización y comprensión del código. Estas acciones ayudaron a fortalecer la calidad general del proyecto y facilitar la colaboración grupal.

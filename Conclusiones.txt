@@ -15,3 +15,6 @@ Por otro lado, la coordinación con el equipo de trabajo fue otro papel fundamen
 Además de lo anterior, también fue valioso implementar mejoras en el manejo de errores dentro del proyecto, como el uso de System.err y printStackTrace() para facilitar la identificación de problemas durante la ejecución. 
 
 Se sugirió estructurar mejor las clases mediante entidades como Vendedor, Producto y Venta, lo que contribuyó a una mayor organización y comprensión del código. Estas acciones ayudaron a fortalecer la calidad general del proyecto y facilitar la colaboración grupal.
+
+VIDEO EXPLICACION Y DETALLE DEL PROYECTO
+https://poligran-my.sharepoint.com/:v:/g/personal/amanchego_poligran_edu_co/EVv6try79cpDrqWk_6Nl3uEBCvqEQDGmdILu40HoWxRabg?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view

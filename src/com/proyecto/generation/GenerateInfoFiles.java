@@ -29,19 +29,11 @@ public class GenerateInfoFiles {
                 String apellido = APELLIDOS[rand.nextInt(APELLIDOS.length)];
                 writer.write(tipoDoc + ";" + id + ";" + nombre + ";" + apellido + "\n");
             }
-<<<<<<< HEAD
-            System.out.println("vendedores.csv generado con éxito.");
-       } catch (IOException e) {
-    System.err.println("⚠️ Error al escribir el archivo: " + e.getMessage());
-    e.printStackTrace(); // Esto mostrará más detalles si algo sale mal.
-}
-=======
             System.out.println("✅ Archivo 'vendedores.csv' generado con éxito. (" + cantidadVendedores + " registros)");
         } catch (IOException e) {
             System.err.println("❌ Error crítico al generar 'vendedores.csv': " + e.getMessage());
             e.printStackTrace();
         }
->>>>>>> c94a03d (🔥 Segunda entrega - archivos corregidos y mejoras en GenerateInfoFiles.java y creacion de Main.java)
     }
 
     /**
@@ -58,19 +50,11 @@ public class GenerateInfoFiles {
                 double precio = (10000 + (rand.nextDouble() * 490000)); // Precio entre 10,000 y 500,000
                 writer.write(id + ";" + nombre + ";" + String.format("%.2f", precio) + "\n");
             }
-<<<<<<< HEAD
-            System.out.println("productos.csv generado con éxito.");
-      } catch (IOException e) {
-    System.err.println("⚠️ Error al escribir el archivo: " + e.getMessage());
-    e.printStackTrace(); // Esto mostrará más detalles si algo sale mal.
-}
-=======
             System.out.println("✅ Archivo 'productos.csv' generado con éxito. (" + cantidadProductos + " productos)");
         } catch (IOException e) {
             System.err.println("❌ Error crítico al generar 'productos.csv': " + e.getMessage());
             e.printStackTrace();
         }
->>>>>>> c94a03d (🔥 Segunda entrega - archivos corregidos y mejoras en GenerateInfoFiles.java y creacion de Main.java)
     }
 
     /**
@@ -91,19 +75,11 @@ public class GenerateInfoFiles {
                 int cantidad = rand.nextInt(10) + 1; // Entre 1 y 10 unidades
                 writer.write(idProducto + ";" + cantidad + "\n");
             }
-<<<<<<< HEAD
-            System.out.println("ventas_" + id + ".csv generado con éxito.");
-      } catch (IOException e) {
-    System.err.println("⚠️ Error al escribir el archivo: " + e.getMessage());
-    e.printStackTrace(); // Esto mostrará más detalles si algo sale mal.
-}
-=======
             System.out.println("✅ Archivo 'ventas_" + id + ".csv' generado con éxito. (" + ventasAleatorias + " ventas)");
         } catch (IOException e) {
             System.err.println("❌ Error al generar archivo de ventas para ID " + id + ": " + e.getMessage());
             e.printStackTrace();
         }
->>>>>>> c94a03d (🔥 Segunda entrega - archivos corregidos y mejoras en GenerateInfoFiles.java y creacion de Main.java)
     }
 
     /**
